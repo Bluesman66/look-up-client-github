@@ -1,0 +1,16 @@
+.nice-button {
+    display: inline-block;
+    width: 275px;
+    height: 56px;
+    margin: 0 auto;
+    box-shadow: 0px 30px 24px rgba(0, 0, 0, 0.25);
+    border-radius: 28px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+}
+
+.nice-button:hover {
+    text-decoration: none;
+}

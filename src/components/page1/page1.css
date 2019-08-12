@@ -1,0 +1,6 @@
+.page1-app-container {
+    width: 100vw;
+    height: 100vh;    
+    color: #fff;    
+    background: linear-gradient(0deg, rgba(78, 76, 133, 0.0001) 0%, #3A3781 100%), #626BA3;    
+}

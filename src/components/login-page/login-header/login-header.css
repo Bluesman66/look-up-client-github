@@ -1,0 +1,132 @@
+.login-header {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 58px;
+    letter-spacing: 0.001em;
+    position: absolute;
+    width: 100%;
+    background-color: #FFFFFF;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-header__left {
+    display: flex;
+}
+
+.login-header__logo-text {
+    font-weight: bold;
+}
+
+.login-header__right {
+    display: flex;
+}
+
+.login-header__home {
+    background: #8785C0 url('images/home.png') no-repeat;
+    background-position: center;
+    background-size: auto;
+    height: 100%;
+}
+
+/* === DESKTOP === */
+
+@media screen and (max-width: 3840px) {
+    .login-header {
+        font-size: 58px;
+    }
+    .login-header__logo-image {
+        width: 1.6em;
+        margin: 0.5em;
+    }
+    .login-header__logo-text {
+        font-size: 0.8em;
+        margin-top: 1em;
+    }
+    .login-header__home {
+        background-size: 1.8em;
+        width: 2.8em;
+    }
+}
+
+@media screen and (max-width: 2560px) {
+    .login-header {
+        font-size: 46px;
+    }
+}
+
+@media screen and (max-width: 2048px) {}
+
+@media screen and (max-width: 1920px) {
+    .login-header {
+        font-size: 42px;
+    }
+}
+
+@media screen and (max-width: 1680px) {
+    .login-header {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .login-header {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 1536px) {}
+
+@media screen and (max-width: 1440px) {
+    .login-header {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .login-header {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 1360px) {}
+
+@media screen and (max-width: 1280px) {}
+
+/* === TABLET === */
+
+@media screen and (max-width: 1024px) and (max-height: 1366px) {
+    .login-header {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 768px) and (max-height: 1024px) {
+    .login-header {
+        font-size: 36px;
+    }
+}
+
+/* === SMALL DESKTOP === */
+
+@media screen and (max-width: 640px) {
+    .login-header {
+        font-size: 16px;
+    }
+}
+
+/* === PHONE === */
+
+@media screen and (max-width: 414px) {
+    .login-header {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 411px) {}
+
+@media screen and (max-width: 375px) {}
+
+@media screen and (max-width: 360px) {}
+
+@media screen and (max-width: 320px) {}

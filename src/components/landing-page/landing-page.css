@@ -1,0 +1,9 @@
+.app-container {
+    width: 100vw;
+    height: 100vh;    
+    color: #fff;
+    background-image: radial-gradient(ellipse closest-side at center, rgba(78, 76, 133, 0.4) 0%, #3A3781 150%), url('images/bkg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

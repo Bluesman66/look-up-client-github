@@ -1,0 +1,349 @@
+.page1-body {
+    height: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 58px;
+    letter-spacing: 0.001em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.page1-body-container {
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.page1-body__shape-container {
+    position: relative;
+    width: 100%;
+}
+
+.page1-s-79 {
+    position: relative;
+    left: 50em;
+    height: 2em;
+}
+
+.page1-line {
+    position: relative;
+    left: 48.5em;
+    bottom: 0.7em;
+    width: 4em;
+}
+
+.page1-body__text-container {
+    position: relative;
+    width: 100%;
+}
+
+.page1-body__text {
+    position: absolute;
+    font-size: 1em;
+    left: 5em;
+    font-weight: bold;
+}
+
+.page1-body__s-7 {
+    position: absolute;
+    height: 2em;
+    left: 10em;
+    top: 8em;
+}
+
+.page1-body__matcher {
+    position: relative;
+    bottom: 3em;
+    width: 18em;
+    height: 18em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page1-body__img-left {
+    position: absolute;
+    right: 15em;
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    z-index: 100;
+}
+
+.indicator__match {
+    position: absolute;
+    z-index: 6;
+    width: 18em;
+}
+
+.page1-body__img-right {
+    position: absolute;
+    left: 15em;
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    z-index: 100;
+}
+
+.page1-body__rectangle-left-container {
+    position: relative;
+    bottom: 5em;
+    width: 7em;
+    right: 20em;
+}
+
+.page1-body__rectangle-left {
+    position: absolute;
+    width: 100%;
+}
+
+.page1-body__rectangle-left-value {
+    position: absolute;
+    font-size: 1.7em;
+    line-height: 1em;
+    text-align: center;
+    transform: rotate(-10deg);
+    top: 0.6em;
+    left: 1.1em;
+}
+
+.page1-body__rectangle-left-match {
+    position: absolute;
+    font-size: 0.6em;
+    line-height: 0.6em;
+    text-align: center;
+    transform: rotate(-10deg);
+    top: 4.7em;
+    left: 5em;
+}
+
+.page1-body__title {
+    position: relative;
+    bottom: 1.2em;
+    font-size: 2em;
+    text-align: center;
+}
+
+.page1-body__look-up {
+    color: #FC608F;
+}
+
+.page1-body__look-up:hover {
+    text-decoration: none;
+}
+
+.page1-body__small-title {
+    position: relative;
+    bottom: 4em;
+    font-size: 0.7em;
+}
+
+.page1-body__rectangle-right-container {
+    position: relative;
+    bottom: 5em;
+    width: 7em;
+    left: 20em;
+}
+
+.page1-body__rectangle-right {
+    position: absolute;
+    width: 100%;
+}
+
+.page1-body__rectangle-right-value {
+    position: absolute;
+    font-size: 1.7em;
+    line-height: 1em;
+    text-align: center;
+    transform: rotate(10deg);
+    top: 0.6em;
+    left: 1.3em;
+}
+
+.page1-body__rectangle-right-match {
+    position: absolute;
+    font-size: 0.6em;
+    line-height: 0.6em;
+    text-align: center;
+    transform: rotate(10deg);
+    top: 4.6em;
+    left: 4.5em;
+}
+
+/* === DESKTOP === */
+
+@media screen and (max-width: 3840px) and (max-height: 2160px) {
+    .page1-body {
+        font-size: 58px;
+    }
+}
+
+@media screen and (max-width: 2560px) and (max-height: 1440px) {
+    .page1-body {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 2048px) and (max-height: 1152px) {
+    .page1-body {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 1920px) and (max-height: 1200px) {
+    .page1-body {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 1920px) and (max-height: 1080px) {
+    .page1-body {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 1680px) and (max-height: 1050px) {
+    .page1-body {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 1600px) and (max-height: 900px) {
+    .page1-body {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 1536px) and (max-height: 864px) {
+    .page1-body {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 1440px) and (max-height: 900px) {
+    .page1-body {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 1366px) and (max-height: 768px) {
+    .page1-body {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1280px) and (max-height: 800px) {
+    .page1-body {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1280px) and (max-height: 720px) {
+    .page1-body {
+        font-size: 20px;
+    }
+}
+
+/* === TABLET === */
+
+@media screen and (max-width: 1024px) and (max-height: 1366px) {
+    .page1-body {
+        font-size: 40px;
+    }
+    .page1-s-79 {
+        left: 16em;
+    }
+    .page1-line {
+        left: 14.5em;
+    }
+    .page1-body__text-container {
+        display: none;
+    }
+    .page1-body__rectangle-left-container {
+        bottom: 5em;
+        right: 9em;
+        width: 5em;
+    }
+    .page1-body__title {
+        font-size: 1.8em;
+    }
+    .page1-body__small-title {
+        bottom: 5em;
+        font-size: 0.6em;
+    }
+    .page1-body__rectangle-right-container {
+        bottom: 5em;
+        left: 10em;
+        width: 5em;
+    }
+    .page1-body__rectangle-left-value {
+        top: 0.2em;
+        left: 0.6em;
+    }
+    .page1-body__rectangle-left-match {
+        top: 3.3em;
+        left: 3.3em;
+    }
+    .page1-body__rectangle-right-value {
+        top: 0.3em;
+        left: 0.7em;
+    }
+    .page1-body__rectangle-right-match {
+        top: 3.6em;
+        left: 3.2em;
+    }
+}
+
+@media screen and (max-width: 768px) and (max-height: 1024px) {
+    .page1-body {
+        font-size: 30px;
+    }
+}
+
+/* === SMALL DESKTOP === */
+
+@media screen and (max-width: 640px) and (max-height: 360px) {
+    .page1-body {
+        font-size: 10px;
+    }
+}
+
+/* === PHONE === */
+
+@media screen and (max-width: 414px) {
+    .page1-body {
+        font-size: 20px;
+    }
+    .page1-body__rectangle-left-container--hide {
+        display: none;
+    }
+    .page1-body__rectangle-right-container--hide {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 411px) {
+    .page1-body {
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .page1-body {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .page1-body {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .page1-body {
+        font-size: 15px;
+    }
+}
